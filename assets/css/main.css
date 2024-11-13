@@ -416,19 +416,6 @@ h6 {
   }
 }
 
-@media (max-width: 768px) {
-  .hero {
-    padding: 40px 0;
-  }
-
-  .hero h2 {
-    font-size: 32px;
-  }
-
-  .hero p {
-    font-size: 20px;
-  }
-}
 /*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
@@ -536,11 +523,6 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('assets/img/hero-bg.jpg') no-repeat center center/cover;
-}
-
-.hero img {
-  display: none; /* Скрываем изображение, так как оно используется в качестве фона */
 }
 
 
