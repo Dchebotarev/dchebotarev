@@ -536,7 +536,13 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url('assets/img/hero-bg.jpg') no-repeat center center/cover;
 }
+
+.hero img {
+  display: none; /* Скрываем изображение, так как оно используется в качестве фона */
+}
+
 
 .hero img {
   position: absolute;
