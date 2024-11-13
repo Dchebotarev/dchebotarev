@@ -416,6 +416,19 @@ h6 {
   }
 }
 
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+}
 /*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
