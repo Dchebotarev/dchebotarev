@@ -515,9 +515,7 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-/* Hero Section */
 .hero {
-  background: url('assets/img/hero-bg.jpg') no-repeat center center / cover;
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -527,8 +525,15 @@ section,
   justify-content: center;
 }
 
+
 .hero img {
-  display: none; /* Hides the img tag as the background is set via CSS */
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
 
 .hero:before {
@@ -578,10 +583,6 @@ section,
 }
 
 @media (max-width: 768px) {
-  .hero {
-    background-attachment: scroll; /* Ensures proper rendering on mobile */
-  }
-
   .hero h2 {
     font-size: 32px;
   }
